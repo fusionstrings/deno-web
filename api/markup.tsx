@@ -16,6 +16,9 @@ function App() {
                 <link rel="stylesheet" href="style.css" />
             </head>
             <body>
+                <main>
+
+                </main>
                 <h1>Welcome to deno {Deno.version.deno} 🦕</h1>
                 <div>
                 This is demonstration is "Zero build" web application using 
@@ -25,6 +28,14 @@ function App() {
                     <li><a href="https://reactjs.org/">React</a></li>
                 </ul>
                 </div>
+                <footer>
+                    <p>
+                        Code hosted at <a href="https://github.com/fusionstrings/deno-web">https://github.com/fusionstrings/deno-web</a>
+                    </p>
+                    <p>
+                        Application hosted at <a href="https://zeit.co/">Zeit NOW</a>
+                    </p>
+                </footer>
             </body>
         </html>
     );
