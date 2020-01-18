@@ -1,0 +1,10 @@
+{
+    "name": "deno",
+    "routes": [{ "src": "/.*", "dest": "/api/mod.ts"}],
+    "functions": {
+        "api/**/*.ts": {
+            "runtime": "now-deno@0.1.0",
+            "memory": 128
+        }
+    }
+}
