@@ -23,7 +23,7 @@ function App() {
                 <div>
                 This is demonstration is "Zero build" web application using 
                 <ul>
-                    <li><a href="https://reactjs.org/">Deno 🦕</a></li>
+                    <li><a href="https://deno.land/">Deno 🦕</a></li>
                     <li><a href="https://jspm.io/">JSPM</a></li>
                     <li><a href="https://reactjs.org/">React</a></li>
                 </ul>
