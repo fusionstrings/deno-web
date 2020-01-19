@@ -1,5 +1,6 @@
 {
-    "name": "deno-web",
+    "name": "deno",
+    "alias": "deno-web",
     "routes": [{ "src": "/.*", "dest": "/api/mod.ts"}],
     "functions": {
         "api/**/*.ts": {
